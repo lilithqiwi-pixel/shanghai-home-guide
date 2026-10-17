@@ -1,0 +1,842 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-17",
+  "notes": "仅录入来源页面能核对到的 2 公里内配套；其他小区详情会显示待核验提示，不据板块中心点推测距离。",
+  "communities": {
+    "龙柏二村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://sh.dushiquan.net/xiaoqu/35200/",
+      "transit": [
+        {
+          "name": "龙柏新村站",
+          "lines": "10号线",
+          "distanceKm": 0.938
+        },
+        {
+          "name": "上海动物园站",
+          "lines": "10号线",
+          "distanceKm": 1.052
+        },
+        {
+          "name": "紫藤路站",
+          "lines": "10号线",
+          "distanceKm": 1.409
+        },
+        {
+          "name": "虹桥1号航站楼站",
+          "lines": "10号线",
+          "distanceKm": 1.784
+        },
+        {
+          "name": "航中路站",
+          "lines": "10号线",
+          "distanceKm": 1.985
+        }
+      ],
+      "malls": [
+        {
+          "name": "乐虹坊精致生活广场",
+          "distanceKm": 1.107
+        },
+        {
+          "name": "阿拉城",
+          "distanceKm": 1.247
+        },
+        {
+          "name": "爱琴海购物公园",
+          "distanceKm": 1.363
+        }
+      ]
+    },
+    "龙柏七村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://sh.dushiquan.net/xiaoqu/34852/",
+      "transit": [
+        {
+          "name": "紫藤路站",
+          "lines": "10号线",
+          "distanceKm": 0.676
+        },
+        {
+          "name": "龙柏新村站",
+          "lines": "10号线",
+          "distanceKm": 0.872
+        },
+        {
+          "name": "航中路站",
+          "lines": "10号线",
+          "distanceKm": 1.256
+        }
+      ],
+      "malls": [
+        {
+          "name": "万象城（吴中路店）",
+          "distanceKm": 0.918
+        },
+        {
+          "name": "乐虹坊精致生活广场",
+          "distanceKm": 0.971
+        },
+        {
+          "name": "爱琴海购物公园",
+          "distanceKm": 1.127
+        }
+      ]
+    },
+    "罗阳七村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://sh.dushiquan.net/xiaoqu/35470/",
+      "transit": [
+        {
+          "name": "外环路站",
+          "lines": "1号线",
+          "distanceKm": 0.575
+        },
+        {
+          "name": "莲花路站",
+          "lines": "1号线",
+          "distanceKm": 0.912
+        },
+        {
+          "name": "莘庄站",
+          "lines": "1号线、5号线",
+          "distanceKm": 1.842
+        },
+        {
+          "name": "顾戴路站",
+          "lines": "12号线",
+          "distanceKm": 1.969
+        }
+      ],
+      "malls": [
+        {
+          "name": "中庚漫游城",
+          "distanceKm": 0.816
+        },
+        {
+          "name": "百联南方购物中心",
+          "distanceKm": 0.839
+        },
+        {
+          "name": "百联南方购物中心（一区）",
+          "distanceKm": 0.951
+        },
+        {
+          "name": "莲花国际广场",
+          "distanceKm": 1.18
+        },
+        {
+          "name": "天呈广场",
+          "distanceKm": 1.245
+        }
+      ]
+    },
+    "航华一村一街坊北小区": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "58同城房源配套描述",
+      "sourceUrl": "https://sh.58.com/ershoufang/4159335577296900x.shtml",
+      "transit": [
+        {
+          "name": "航中路站",
+          "lines": "10号线",
+          "distanceKm": 1.2
+        }
+      ],
+      "malls": []
+    },
+    "莘松二村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "安居客房源描述",
+      "sourceUrl": "https://shanghai.anjuke.com/prop/view/S3071892650729482",
+      "transit": [
+        {
+          "name": "莘庄站",
+          "lines": "1号线、5号线",
+          "distanceKm": 1.1
+        }
+      ],
+      "malls": [
+        {
+          "name": "莘庄龙之梦（来源描述）",
+          "distanceKm": 0.5
+        }
+      ]
+    },
+    "龙柏四村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://sh.dushiquan.net/xiaoqu/34847/",
+      "transit": [
+        {
+          "name": "龙柏新村站",
+          "lines": "10号线",
+          "distanceKm": 0.653
+        },
+        {
+          "name": "紫藤路站",
+          "lines": "10号线",
+          "distanceKm": 0.915
+        },
+        {
+          "name": "上海动物园站",
+          "lines": "10号线",
+          "distanceKm": 1.436
+        },
+        {
+          "name": "航中路站",
+          "lines": "10号线",
+          "distanceKm": 1.601
+        }
+      ],
+      "malls": [
+        {
+          "name": "乐虹坊精致生活广场",
+          "distanceKm": 0.793
+        },
+        {
+          "name": "万象域购物中心",
+          "distanceKm": 0.982
+        },
+        {
+          "name": "阿拉城",
+          "distanceKm": 0.986
+        },
+        {
+          "name": "万象城（吴中路店）",
+          "distanceKm": 1.0
+        },
+        {
+          "name": "爱琴海购物公园",
+          "distanceKm": 1.009
+        }
+      ]
+    },
+    "报春二村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "房天下报春二村配套指南",
+      "sourceUrl": "https://m.fang.com/xiaoqu/strategy/sh/1210522584.html",
+      "transit": [
+        {
+          "name": "莘庄站",
+          "lines": "1号线、5号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        },
+        {
+          "name": "外环路站",
+          "lines": "1号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        }
+      ],
+      "malls": []
+    },
+    "航华四村一街坊": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "房天下航华四村一街坊配套指南",
+      "sourceUrl": "https://m.fang.com/xiaoqu/strategy/sh/1210660698.html",
+      "transit": [
+        {
+          "name": "航中路站",
+          "lines": "10号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        },
+        {
+          "name": "紫藤路站",
+          "lines": "10号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        }
+      ],
+      "malls": []
+    },
+    "莘浜路351弄": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "链家周边配套",
+      "sourceUrl": "https://news.lianjia.com/sh/xiaoqu/5011000006026.html",
+      "transit": [
+        {
+          "name": "春申路站",
+          "lines": "5号线",
+          "distanceKm": 1.408
+        },
+        {
+          "name": "莘庄站",
+          "lines": "1号线、5号线",
+          "distanceKm": 1.538
+        }
+      ],
+      "malls": []
+    },
+    "报春三村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://sh.dushiquan.net/xiaoqu/34463/zhoubian/",
+      "transit": [
+        {
+          "name": "莘庄站",
+          "lines": "1号线、5号线",
+          "distanceKm": 1.455
+        },
+        {
+          "name": "七莘路站",
+          "lines": "12号线",
+          "distanceKm": 1.695
+        },
+        {
+          "name": "外环路站",
+          "lines": "1号线",
+          "distanceKm": 1.762
+        },
+        {
+          "name": "虹莘路站",
+          "lines": "12号线",
+          "distanceKm": 1.979
+        }
+      ],
+      "malls": [
+        {
+          "name": "凯德龙之梦（闵行商业中心店）",
+          "distanceKm": 1.43
+        },
+        {
+          "name": "港澳购物中心",
+          "distanceKm": 1.466
+        },
+        {
+          "name": "维璟广场",
+          "distanceKm": 1.571
+        },
+        {
+          "name": "莘庄仲盛广场",
+          "distanceKm": 1.869
+        },
+        {
+          "name": "仲盛世界商城",
+          "distanceKm": 1.872
+        }
+      ]
+    },
+    "罗阳三村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "房天下小区配套指南",
+      "sourceUrl": "https://sh.esf.fang.com/loupan/1210609622/strategy.htm",
+      "transit": [
+        {
+          "name": "莲花路站",
+          "lines": "1号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        },
+        {
+          "name": "外环路站",
+          "lines": "1号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        }
+      ],
+      "malls": []
+    },
+    "汇成苑二村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "我爱我家房源页",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/30544/p1/",
+      "transit": [
+        {
+          "name": "华东理工大学站",
+          "lines": "15号线",
+          "distanceKm": 0.633
+        }
+      ],
+      "malls": []
+    },
+    "汇成三村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "我爱我家房源页",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/30544/o5p1/",
+      "transit": [
+        {
+          "name": "华东理工大学站",
+          "lines": "15号线",
+          "distanceKm": 0.478
+        }
+      ],
+      "malls": []
+    },
+    "汇成四村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "链家周边配套",
+      "sourceUrl": "https://news.lianjia.com/sh/xiaoqu/5011000015316.html",
+      "transit": [
+        {
+          "name": "华东理工大学站",
+          "lines": "15号线",
+          "distanceKm": 0.794
+        },
+        {
+          "name": "上海南站",
+          "lines": "1号线、3号线、15号线",
+          "distanceKm": 1.504
+        },
+        {
+          "name": "罗秀路站",
+          "lines": "15号线",
+          "distanceKm": 1.526
+        }
+      ],
+      "malls": []
+    },
+    "长宁支路314弄": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://sh.dushiquan.net/xiaoqu/42608/",
+      "transit": [
+        {
+          "name": "隆德路站",
+          "lines": "11号线、13号线",
+          "distanceKm": 0.74
+        },
+        {
+          "name": "江苏路站",
+          "lines": "11号线",
+          "distanceKm": 0.775
+        },
+        {
+          "name": "中山公园站",
+          "lines": "2号线、3号线、4号线",
+          "distanceKm": 0.927
+        },
+        {
+          "name": "金沙江路站",
+          "lines": "3号线、4号线、13号线",
+          "distanceKm": 1.34
+        },
+        {
+          "name": "武宁路站",
+          "lines": "13号线",
+          "distanceKm": 1.352
+        }
+      ],
+      "malls": [
+        {
+          "name": "KiNG88购物中心",
+          "distanceKm": 0.563
+        },
+        {
+          "name": "华美达广场",
+          "distanceKm": 0.656
+        },
+        {
+          "name": "柒彩里中心",
+          "distanceKm": 0.704
+        },
+        {
+          "name": "华宁·弘基生活中心",
+          "distanceKm": 0.709
+        }
+      ]
+    },
+    "法华镇路878弄": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://sh.dushiquan.net/xiaoqu/42668/",
+      "transit": [
+        {
+          "name": "延安西路站",
+          "lines": "3号线、4号线",
+          "distanceKm": 0.333
+        },
+        {
+          "name": "虹桥路站",
+          "lines": "10号线、3号线、4号线",
+          "distanceKm": 1.172
+        },
+        {
+          "name": "中山公园站",
+          "lines": "2号线、3号线、4号线",
+          "distanceKm": 1.232
+        }
+      ],
+      "malls": [
+        {
+          "name": "上海长宁来福士广场",
+          "distanceKm": 1.073
+        },
+        {
+          "name": "虹桥南丰城",
+          "distanceKm": 1.118
+        },
+        {
+          "name": "华宁·弘基生活中心",
+          "distanceKm": 1.165
+        },
+        {
+          "name": "尚嘉中心",
+          "distanceKm": 1.184
+        }
+      ]
+    },
+    "长宁路1600弄": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "安居客房源描述",
+      "sourceUrl": "https://sh.zu.anjuke.com/fangyuan/4110204349734925",
+      "transit": [
+        {
+          "name": "中山公园站",
+          "lines": "2号线、11号线",
+          "distanceKm": 0.916
+        }
+      ],
+      "malls": []
+    },
+    "华菁公寓": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://sh.dushiquan.net/xiaoqu/34504/",
+      "transit": [
+        {
+          "name": "虹桥1号航站楼站",
+          "lines": "10号线",
+          "distanceKm": 1.358
+        },
+        {
+          "name": "龙柏新村站",
+          "lines": "10号线",
+          "distanceKm": 1.538
+        },
+        {
+          "name": "紫藤路站",
+          "lines": "10号线",
+          "distanceKm": 1.593
+        },
+        {
+          "name": "上海动物园站",
+          "lines": "10号线",
+          "distanceKm": 1.597
+        },
+        {
+          "name": "航中路站",
+          "lines": "10号线",
+          "distanceKm": 1.778
+        }
+      ],
+      "malls": [
+        {
+          "name": "乐虹坊精致生活广场",
+          "distanceKm": 1.693
+        },
+        {
+          "name": "万象城（吴中路店）",
+          "distanceKm": 1.848
+        },
+        {
+          "name": "万象域购物中心",
+          "distanceKm": 1.863
+        },
+        {
+          "name": "阿拉城",
+          "distanceKm": 1.869
+        }
+      ]
+    },
+    "航华二村驰骋小区": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "房天下房源配套描述",
+      "sourceUrl": "https://m.fang.com/esf/sh/8_1000896004.html",
+      "transit": [
+        {
+          "name": "航中路站",
+          "lines": "10号线",
+          "distanceKm": 0.971
+        }
+      ],
+      "malls": []
+    },
+    "定西路1235弄": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "安居客房源描述及我爱我家房源页",
+      "sourceUrl": "https://sh.zu.anjuke.com/fangyuan/4101079141149702",
+      "transit": [
+        {
+          "name": "中山公园站",
+          "lines": "2号线、3号线、4号线",
+          "distanceKm": 0.553
+        }
+      ],
+      "malls": [
+        {
+          "name": "华宁弘基生活中心",
+          "distanceKm": 0.373
+        },
+        {
+          "name": "中山公园中心",
+          "distanceKm": 0.368
+        }
+      ]
+    },
+    "天一小区": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "我爱我家租房页",
+      "sourceUrl": "https://sh.5i5j.com/zufang/366733/",
+      "transit": [
+        {
+          "name": "虹桥1号航站楼站",
+          "lines": "10号线",
+          "distanceKm": 1.383
+        }
+      ],
+      "malls": [
+        {
+          "name": "万科商业体（来源未给具体名称）",
+          "distanceLabel": "2公里范围内（来源描述）"
+        },
+        {
+          "name": "巴黎春天",
+          "distanceLabel": "2公里范围内（来源描述）"
+        },
+        {
+          "name": "宝龙城",
+          "distanceLabel": "2公里范围内（来源描述）"
+        }
+      ]
+    },
+    "沁春园一村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://msh.dushiquan.net/xiaoqu/34693/",
+      "transit": [
+        {
+          "name": "春申路站",
+          "lines": "5号线",
+          "distanceKm": 0.718
+        },
+        {
+          "name": "银都路站",
+          "lines": "5号线",
+          "distanceKm": 1.543
+        },
+        {
+          "name": "莘庄站",
+          "lines": "1号线、5号线",
+          "distanceKm": 1.559
+        }
+      ],
+      "malls": [
+        {
+          "name": "百盛购物中心（莘庄店）",
+          "distanceKm": 1.261
+        },
+        {
+          "name": "凯德龙之梦（闵行商业中心店）",
+          "distanceKm": 1.014
+        },
+        {
+          "name": "莘福68广场",
+          "distanceKm": 1.523
+        },
+        {
+          "name": "莘庄仲盛广场",
+          "distanceKm": 1.269
+        },
+        {
+          "name": "仲盛世界商城",
+          "distanceKm": 1.272
+        }
+      ]
+    },
+    "华云大楼": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "58同城小区信息",
+      "sourceUrl": "https://mfang.58.com/sh/xinfang/xq100050910/",
+      "transit": [
+        {
+          "name": "延安西路站",
+          "lines": "3号线、4号线",
+          "distanceLabel": "周边站点平均约0.89 km（来源统计）"
+        }
+      ],
+      "malls": []
+    },
+    "长新小区（长宁）": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "安居客房源描述",
+      "sourceUrl": "https://sh.zu.anjuke.com/fangyuan/4099768368946178",
+      "transit": [],
+      "malls": [
+        {
+          "name": "今樂汇休闲广场",
+          "distanceKm": 0.736
+        }
+      ]
+    },
+    "化工一、四村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "我爱我家小区租房页",
+      "sourceUrl": "https://sh.5i5j.com/zufang/30384/",
+      "transit": [
+        {
+          "name": "华东理工大学站",
+          "lines": "15号线",
+          "distanceKm": 0.793
+        }
+      ],
+      "malls": [
+        {
+          "name": "上海市第二食品购物商场（街区商业）",
+          "distanceLabel": "小区门口对面（来源描述）"
+        }
+      ]
+    },
+    "梅陇七村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "房天下小区配套指南",
+      "sourceUrl": "https://m.fang.com/xiaoqu/strategy/sh/1210323770.html",
+      "transit": [
+        {
+          "name": "华东理工大学站",
+          "lines": "15号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        },
+        {
+          "name": "锦江乐园站",
+          "lines": "1号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        }
+      ],
+      "malls": []
+    },
+    "华理苑": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "房天下小区配套指南",
+      "sourceUrl": "https://m.fang.com/xiaoqu/strategy/sh/1210601866.html",
+      "transit": [
+        {
+          "name": "锦江乐园站",
+          "lines": "1号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        },
+        {
+          "name": "华东理工大学站",
+          "lines": "15号线",
+          "distanceLabel": "2公里范围内（来源统计）"
+        }
+      ],
+      "malls": []
+    },
+    "梅陇三村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "链家小区周边配套",
+      "sourceUrl": "https://news.lianjia.com/sh/xiaoqu/5011000017443.html",
+      "transit": [
+        {
+          "name": "华东理工大学站",
+          "lines": "15号线",
+          "distanceKm": 1.646
+        }
+      ],
+      "malls": []
+    },
+    "报春一村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "幸福里房源周边配套",
+      "sourceUrl": "https://m.99hdf.com/ershoufang/sh-7566322345380413467.html",
+      "transit": [
+        {
+          "name": "莘庄站",
+          "lines": "1号线、5号线",
+          "distanceKm": 1.2
+        },
+        {
+          "name": "外环路站",
+          "lines": "1号线",
+          "distanceKm": 1.4
+        }
+      ],
+      "malls": []
+    },
+    "凌云新村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "上海都市圈小区周边配套",
+      "sourceUrl": "https://sh.dushiquan.net/xiaoqu/40729/",
+      "transit": [
+        {
+          "name": "锦江乐园站",
+          "lines": "1号线",
+          "distanceKm": 0.467
+        },
+        {
+          "name": "华东理工大学站",
+          "lines": "15号线",
+          "distanceKm": 1.084
+        },
+        {
+          "name": "莲花路站",
+          "lines": "1号线",
+          "distanceKm": 1.763
+        }
+      ],
+      "malls": [
+        {
+          "name": "徐汇梅陇商业中心",
+          "distanceKm": 0.365
+        },
+        {
+          "name": "凌云·壹街坊",
+          "distanceKm": 0.9
+        },
+        {
+          "name": "莲花国际广场",
+          "distanceKm": 1.633
+        },
+        {
+          "name": "上海万辉国际广场",
+          "distanceKm": 1.672
+        },
+        {
+          "name": "天呈广场",
+          "distanceKm": 1.785
+        }
+      ]
+    },
+    "长寿新村（闵行）": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "幸福里房源周边配套",
+      "sourceUrl": "https://m.xflapp.com/ershoufang/sh-7681976200232566819.html",
+      "transit": [
+        {
+          "name": "莘庄站",
+          "lines": "1号线、5号线",
+          "distanceKm": 0.815
+        }
+      ],
+      "malls": []
+    },
+    "溢发公寓": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "我爱我家挂牌页",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss6250/p5p6q4v2/",
+      "transit": [
+        {
+          "name": "莘庄站",
+          "lines": "1号线、5号线",
+          "distanceKm": 0.769
+        }
+      ],
+      "malls": []
+    },
+    "虹梅南路126弄": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "链家小区周边配套（周边站点信息未提供）",
+      "sourceUrl": "https://news.lianjia.com/sh/xiaoqu/5011102207272.html",
+      "transit": [],
+      "malls": [],
+      "note": "来源页没有提供可核对的地铁站、商圈名称及距离，暂显示待核验。"
+    },
+    "罗阳东四村": {
+      "updatedAt": "2026-10-17",
+      "sourceName": "安居客房源描述（线路信息有冲突）",
+      "sourceUrl": "https://sh.zu.anjuke.com/fangyuan/4098846853372934",
+      "transit": [],
+      "malls": [],
+      "note": "来源页提到地铁站距离，但线号标注与公开线路信息不一致，购物中心也未标注距离；为避免误导，暂不列入已核实的两公里清单。"
+    }
+  }
+}

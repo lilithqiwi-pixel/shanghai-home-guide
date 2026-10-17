@@ -14,7 +14,7 @@
 - `listedAt`：来源页标注发布日期；没有日期填 `未标注`
 - `sourceUrl`：可打开的挂牌来源页面
 
-更新时重新核对挂牌是否仍在售，录入最新总价、面积、日期与链接，再更新 `datasetUpdatedAt`。已发布的网站点“更新数据”会重新读取仓库中的文件；这不是平台实时抓取。让所有访客看到变更，需要把修改后的 `data/market-listings.json` 提交到 GitHub。
+更新时重新核对挂牌是否仍在售，录入最新总价、面积、日期与链接，再更新 `datasetUpdatedAt`。已发布的网站点“更新数据”会重新读取仓库中的文件；这不是平台实时抓取。让所有访客看到变更，需要把修改后的 `data/market-listings.json` 提交到 GitHub。周边地铁和大型商圈单独维护在 `community-amenities.json`，按小区名称对应；只录入有来源支持且在 2 公里内的项目，包含 `transit[]`、`malls[]`、`distanceKm`、`sourceName`、`sourceUrl` 和 `updatedAt`。可选 `note` 字段用于说明资料冲突或尚未核实的原因。若来源只说明“附近/周边”而没有距离，不要把它算作两公里内；距离字段无法核实的小区会显示待核验提示。更新该文件后同样需要提交到 GitHub。
 
 ## 价格和收益测算假设
 

@@ -1,40 +1,29 @@
-# 社区数据维护说明
+# 房源数据维护
 
-页面从 `communities.json` 读取数据，前端界面与数据分离。字段金额以人民币计，距离以公里计，面积以平方米计。随站点发布时可直接替换这个文件；浏览器里的“数据管理”也支持 JSON 导入、导出和恢复演示数据。
+网站的唯一搜索库存来自 `market-listings.json`。金额单位为万元，面积为平方米。当前收录浦西闵行（龙柏、罗阳/梅陇、莘庄/春申、航华/七宝）、长宁和徐汇南站/华东理工/梅陇的 120–230 万挂牌页面摘录。它是整理快照，不等于这些板块的全部在售房源。
 
-## 顶层结构
+## 更新字段
 
-```json
-{
-  "schemaVersion": 1,
-  "datasetUpdatedAt": "2026-10-17",
-  "datasetLabel": "来源描述",
-  "communities": []
-}
-```
+顶层 `datasetUpdatedAt` 表示本次整理日期。每个 `boards[]` 代表搜索区域，包含 `id`、`name`、`district`、`area`、`sourceName`、`sourceUrl`。每条 `listings[]` 记录至少要有：
 
-每个社区字段：
+- `community`：小区或弄堂名
+- `layout`：户型
+- `areaSqm`：建筑面积
+- `priceWan`：挂牌总价（万元）
+- `unitPriceYuanSqm`：页面单价（元/㎡）
+- `listedAt`：来源页标注发布日期；没有日期填 `未标注`
+- `sourceUrl`：可打开的挂牌来源页面
 
-- `id`, `name`, `district`, `area`, `address`, `updatedAt`
-- `dataStatus`: `verified` 或 `demo`；演示数据必须继续标为 `demo`
-- `sources`: 来源对象数组，含 `name`, `url`, `accessedAt`, `fields`
-- `transit`: `{ name, lines, distanceKm }[]`；页面展示 2 公里内站点
-- `malls`: `{ name, distanceKm }[]`；页面展示 2 公里内商场
-- `units`: `{ layout, areaSqm, unitPriceYuanSqm }[]`
-- `rentalIncome.monthlyRentYuan`
-- `costs`: `downPaymentRate`, `deedTaxRate`, `agencyFeeRate`, `otherPurchaseYuan`, `renovationYuanPerSqm`, `maintenanceEventYuan` (每次周期性大修金额), `maintenanceIntervalYears`, `sellingCostRate`
-- `assumptions`: `annualAppreciationRate`, `annualRentGrowthRate`, `annualHoldingCostGrowthRate`, `annualPropertyFeeYuan`, `annualPropertyTaxYuan`, `modelNote`
+更新时重新核对挂牌是否仍在售，录入最新总价、面积、日期与链接，再更新 `datasetUpdatedAt`。已发布的网站点“更新数据”会重新读取仓库中的文件；这不是平台实时抓取。让所有访客看到变更，需要把修改后的 `data/market-listings.json` 提交到 GitHub。
 
-## 收益模型
+## 价格和收益测算假设
 
-总价 = 户型面积 × 户型单价。首付 = 总价 × 首付比例。购入现金 = 首付 + 契税 + 中介费 + 其他购入支出 + 装修；契税及中介费按总价比例估算。年租金收入以租金年增长率复利增长。持有期成本计入物业费、房产税假设与每隔指定年数的大修金额。期末净终值 = 期末估值 × (1 − 出售成本率) + 累计租金 − 累计持有及维修成本。净实际收益 = 期末净终值按通胀折算至今日价值 − 初始投入。未包含按揭利息/还款、租赁空置、个人所得税及法律政策变动；应结合实际购房资格、税费政策和房屋条件复核。
+详情弹窗可以将谈判价设为挂牌价下浮 1%–10%，首付档位可选全款、50%、80%。谈判价变动后，单价、首付、贷款额、估算税费/中介费、装修金额、初始自有资金及后续持有测算同步变化。
 
-页面的核心社区运行示例数据纯属演示，不是实盘行情或真实社区调查结果。更新数据时，为每个来源填写链接或出处，并更新 `updatedAt`。
+- 契税演示比例：1.5%；中介费：1%；两项合计按谈判价 2.5%估算。真实税费需按家庭住房套数、房屋性质和现行政策核验。
+- 装修预算：2,000 元/㎡，可按实际工程报价调整。
+- 每 10 年维修事件暂按 6 万元示例估算。
+- 月租金需用户填写后才计算租金收益率与累计租金；空白时不生成租金行情。
+- 房价年变化和通胀率可在详情中调整。净实际收益为简化情景，未计按揭利息/还款、空置、税费政策变化等。
 
-## 预算房源数据
-
-房源参考独立存放在 `market-listings.json`。每个板块字段含 `id`、`name`、来源名称/链接以及 `listings` 数组。每条挂牌记录包含社区、户型、面积、挂牌总价（万元）、单价、来源页面展示的发布日期及来源网址。更新后同步改顶层 `datasetUpdatedAt`。页面默认显示 120–230 万（目标 130–220 万，预留上下各约 10 万），每个板块当前列至少 6 条公开挂牌参考。
-
-页面可导入/导出房源 JSON，导入结果保存在当前浏览器；点击“刷新挂牌数据”则强制重新读取网站公开的数据文件。要让所有访客看到更新，必须把更新的 `market-listings.json` 发布到网站托管仓库。本站没有房产平台 API，因此不会自动实时抓取挂牌；逐条打开来源确认后再更新，避免把历史页面数据误报为当前在售。
-
-谈判滑块默认为挂牌价的 95%，可在挂牌价的 90% 至 100% 范围选择。滑动后实时重算折算单价、35%首付，以及示例现金额（首付 + 1.5%契税 + 1%中介费 + 3500元/㎡装修）。这些比率是演示情景，不是法律税费结论或经纪人议价建议；请按实际家庭住房套数、房屋性质、合同与装修报价调整。
+挂牌信息可能已成交、变价或下架。页面记录的数量不是实时平台库存，房源详情与成交条件须向来源平台/经纪人复核。

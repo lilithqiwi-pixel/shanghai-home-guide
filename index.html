@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f6f3"><title>沪上置业指南 · 上海核心房产搜索</title>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="negotiation.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#"><span class="brand-icon">沪</span><span>沪上置业指南<small>SHANGHAI HOME INDEX</small></span></a><nav><a href="#search">社区搜索</a><a href="#listings">预算房源</a><a href="#about">数据说明</a><button id="manageBtn" class="nav-cta">数据管理 ↗</button></nav></header>
+  <main>
+    <section class="hero" id="search"><div class="hero-copy"><div class="eyebrow"><i></i> SHANGHAI · PROPERTY INSIGHT</div><h1>在上海，找到<br><em>适合自己的</em>一席之地。</h1><p>从社区出发，比较通勤、租金与长期持有成本。用清晰的数据，做更从容的置业决定。</p></div><div class="hero-stat"><span>数据覆盖</span><strong id="communityCount">—</strong><small>个核心社区 · 持续更新</small><div class="stat-line"><b></b></div><div class="stat-foot"><span>上次数据更新</span><strong id="lastUpdated">—</strong></div></div>
+      <div class="search-box"><div class="search-icon">⌕</div><input id="searchInput" type="search" placeholder="搜索小区名称、行政区或板块…" autocomplete="off"><button id="clearSearch" aria-label="清除">×</button><span class="search-hint">⌘ K</span></div>
+    </section>
+    <section class="content-wrap"><div class="section-heading"><div><div class="eyebrow muted">COMMUNITY DIRECTORY</div><h2>核心社区</h2></div><div class="filter-row"><label>区域 <select id="districtFilter"><option value="">全部区域</option></select></label><span class="result-count" id="resultCount"></span></div></div>
+      <div id="communityGrid" class="community-grid"></div><div id="emptyState" class="empty-state" hidden>没有找到匹配的社区，试试其他关键词。</div>
+    </section>
+    <section class="listing-section" id="listings"><div class="listing-inner"><div class="section-heading"><div><div class="eyebrow muted">BUDGET HOME PICKS · MINHANG</div><h2>预算房源参考</h2><p class="listing-lead">按小区挂牌页面整理，快速比较龙柏、罗阳及相似预算板块。</p></div><span class="listing-updated" id="listingUpdated">—</span></div><div class="listing-filters"><label>板块 <select id="boardFilter"><option value="">全部板块</option></select></label><label>最低总价 <input id="minBudget" type="number" value="120" min="0" step="5"> 万</label><label>最高总价 <input id="maxBudget" type="number" value="230" min="0" step="5"> 万</label><span id="listingCount" class="result-count"></span><button id="refreshListingsBtn" class="button secondary refresh-button">刷新挂牌数据</button></div><div id="listingGroups"></div><p class="listing-footnote">预算区间默认 120–230 万（中心目标 130–220 万，预留上下约 10 万）。平台挂牌可能已售出或调价，请点开来源核实；总价不含税费、装修及贷款成本。点击“刷新挂牌数据”会重新读取网站已发布的数据文件。</p></div></section>
+    <section class="about" id="about"><div><div class="eyebrow muted">TRANSPARENT BY DESIGN</div><h2>数据有据，估算有边界。</h2><p>每项数据附来源与更新时间。示例信息只用于演示页面功能，不代表实时市场行情；实际交易请以官方政策、挂牌及专业测算为准。</p></div><div class="about-points"><div><span>01</span><b>来源可追溯</b><small>社区与字段分别记录来源</small></div><div><span>02</span><b>数据可维护</b><small>JSON 导入导出，离线可用</small></div><div><span>03</span><b>假设可调整</b><small>价格增长和持有成本可修改</small></div></div></section>
+  </main>
+  <footer><span>沪上置业指南 <small>© 2026</small></span><span>为长期决策，提供一份清晰的参考</span></footer>
+  <dialog id="detailDialog" class="detail-dialog"><div id="detailContent"></div></dialog>
+  <dialog id="manageDialog" class="manage-dialog"><div class="dialog-head"><div><div class="eyebrow muted">DATA WORKSPACE</div><h2>数据管理</h2></div><button class="icon-button close-dialog" aria-label="关闭">×</button></div><p class="manage-intro">导入的数据只保存在当前浏览器。要让所有访客看到更新，请替换网站仓库内对应 JSON 文件并重新发布。</p><div class="manage-actions"><button id="exportBtn" class="button secondary">导出社区数据</button><label class="button secondary upload-button">导入社区 JSON<input id="importInput" type="file" accept=".json,application/json" hidden></label><button id="exportListingsBtn" class="button secondary">导出房源数据</button><label class="button secondary upload-button">导入房源 JSON<input id="importListingsInput" type="file" accept=".json,application/json" hidden></label><button id="resetBtn" class="button subtle">恢复示例数据</button></div><div class="schema-note"><b>数据文件</b><code>data/communities.json</code><code>data/market-listings.json</code><p>字段约定、来源记录及维护流程见随网站提供的 README。房源记录包含板块、小区、户型、面积、挂牌价、日期和来源网址。</p></div><div id="manageMessage" class="manage-message" role="status"></div></dialog>
+  <script src="app.js" defer></script>
+</body></html>

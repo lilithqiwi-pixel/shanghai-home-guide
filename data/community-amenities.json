@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-20",
   "notes": "仅录入来源页面能核对到的 2 公里内配套；其他小区详情会显示待核验提示，不据板块中心点推测距离。",
   "communities": {
     "龙柏二村": {
@@ -829,6 +829,62 @@
       "transit": [],
       "malls": [],
       "note": "来源页没有提供可核对的地铁站、商圈名称及距离，暂显示待核验。"
+    },
+    "芷江西路26弄": {
+      "updatedAt": "2026-10-20",
+      "sourceName": "我爱我家挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss646/o8r1/",
+      "transit": [{"name":"中兴路站","lines":"8号线","distanceKm":0.651}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "龚家宅": {
+      "updatedAt": "2026-10-20",
+      "sourceName": "我爱我家龚家宅挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/28704/",
+      "transit": [{"name":"中潭路站","lines":"3号线、4号线","distanceKm":0.913}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "中华新路1140弄": {
+      "updatedAt": "2026-10-20",
+      "sourceName": "我爱我家地铁沿线挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/sl4/p1r1t4z1/",
+      "transit": [{"name":"中潭路站","lines":"3号线、4号线","distanceKm":0.828}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "光复西路145弄": {
+      "updatedAt": "2026-10-20",
+      "sourceName": "我爱我家光复西路145弄挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/48556/",
+      "transit": [{"name":"镇坪路站","lines":"3号线、4号线、7号线","distanceKm":0.054}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "安顺路231弄": {
+      "updatedAt": "2026-10-20",
+      "sourceName": "我爱我家虹桥路站挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss698/o8p1p2/",
+      "transit": [{"name":"宋园路站","lines":"10号线","distanceKm":0.782}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "定西路615弄": {
+      "updatedAt": "2026-10-20",
+      "sourceName": "我爱我家虹桥路站挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss698/o8p1p2/",
+      "transit": [{"name":"延安西路站","lines":"3号线、4号线","distanceKm":1.028}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "法华镇路878弄": {
+      "updatedAt": "2026-10-20",
+      "sourceName": "我爱我家虹桥路站挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss698/o8p1p2/",
+      "transit": [{"name":"延安西路站","lines":"3号线、4号线","distanceKm":0.467}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
     },
     "罗阳东四村": {
       "updatedAt": "2026-10-17",

@@ -1,6 +1,6 @@
 const LISTING_STORAGE_KEY = 'shanghai-home-index-listings-v2';
 const MIN_PRICE_WAN = 120;
-const MAX_PRICE_WAN = 230;
+const MAX_PRICE_WAN = 300;
 let listingDataset;
 let nearbyDataset = {};
 const $ = (s, root=document) => root.querySelector(s);

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-11-03",
   "notes": "仅录入来源页面能核对到的 2 公里内配套；其他小区详情会显示待核验提示，不据板块中心点推测距离。",
   "communities": {
     "龙柏二村": {
@@ -883,6 +883,70 @@
       "sourceName": "我爱我家虹桥路站挂牌页（地铁距离）",
       "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss698/o8p1p2/",
       "transit": [{"name":"延安西路站","lines":"3号线、4号线","distanceKm":0.467}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "平江小区": {
+      "updatedAt": "2026-11-03",
+      "sourceName": "我爱我家挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss801/t1/",
+      "transit": [{"name":"上海火车站","lines":"1号线、3号线、4号线","distanceKm":1.041}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "中华小区": {
+      "updatedAt": "2026-11-03",
+      "sourceName": "我爱我家虹桥路沿线挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss531/p2p3v1/",
+      "transit": [{"name":"宋园路站","lines":"10号线","distanceKm":0.752}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "田渡小区": {
+      "updatedAt": "2026-11-03",
+      "sourceName": "我爱我家虹桥路沿线挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss531/p2p3v1/",
+      "transit": [{"name":"虹桥路站","lines":"3号线、4号线、10号线","distanceKm":0.649}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "长宁路155弄": {
+      "updatedAt": "2026-11-03",
+      "sourceName": "我爱我家江苏路沿线挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss486/a1p3/",
+      "transit": [{"name":"江苏路站","lines":"2号线、11号线","distanceKm":0.76}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "三泾南宅": {
+      "updatedAt": "2026-11-03",
+      "sourceName": "我爱我家中山公园沿线挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss529/a1p3r1/",
+      "transit": [{"name":"延安西路站","lines":"3号线、4号线","distanceKm":0.49}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "新海小区（长宁）": {
+      "updatedAt": "2026-11-03",
+      "sourceName": "我爱我家常熟路沿线挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss620/p3t32/",
+      "transit": [{"name":"江苏路站","lines":"2号线、11号线","distanceKm":0.995}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "王家堂小区": {
+      "updatedAt": "2026-11-03",
+      "sourceName": "我爱我家徐家汇沿线挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss470/p3r1/",
+      "transit": [{"name":"上海体育场站","lines":"4号线","distanceKm":0.626}],
+      "malls": [],
+      "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
+    },
+    "吴东小区": {
+      "updatedAt": "2026-11-03",
+      "sourceName": "我爱我家徐家汇沿线挂牌页（地铁距离）",
+      "sourceUrl": "https://sh.5i5j.com/ershoufang/subway/ss470/p2p3/",
+      "transit": [{"name":"虹桥路站","lines":"3号线、4号线、10号线","distanceKm":0.536}],
       "malls": [],
       "note": "挂牌页面标注步行距离；未找到可核实的两公里内大型商场距离。"
     },

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "datasetUpdatedAt": "2026-10-17",
+  "datasetUpdatedAt": "2026-11-03",
   "priceUnit": "万元",
-  "budgetRange": { "min": 120, "max": 230, "targetMin": 130, "targetMax": 220 },
+  "budgetRange": { "min": 120, "max": 300, "targetMin": 130, "targetMax": 280 },
   "purchaseAssumptions": { "deedTaxRate": 0.015, "agencyFeeRate": 0.01, "renovationYuanPerSqm": 2000, "maintenanceEventYuan": 60000, "maintenanceIntervalYears": 10, "discountMinPercent": 1, "discountMaxPercent": 10, "downPaymentOptions": [1, 0.5, 0.8] },
-  "notice": "截至2026-10-17整理的公开挂牌页面快照，不是实时库存；挂牌可能已成交或变价。房源记录保留来源页面日期，超过120天的信息会标记为较早。只列可核对到总价、面积、户型及日期的住宅挂牌；不以估价替代挂牌。",
+  "notice": "截至2026-11-03整理的公开挂牌页面快照，不是实时库存；挂牌可能已成交或变价。本次扩展至300万元，并补充浦西内环内及内环边、近地铁房源；房源日期保留在各条记录中，超过120天的信息会标记为较早。只列可核对到总价、面积、户型及日期的住宅挂牌；不以估价替代挂牌。浦东暂不纳入本次扩展。",
   "boards": [
     {"id":"longbai","name":"闵行 · 龙柏","district":"闵行区","area":"龙柏","sourceName":"我爱我家上海二手房挂牌页","sourceUrl":"https://sh.5i5j.com/ershoufang/406771/o3r1r2r4/","listings":[
       {"community":"龙柏二村","layout":"1室1厅","areaSqm":41.93,"priceWan":169,"unitPriceYuanSqm":40305,"listedAt":"2026-09-08","sourceUrl":"https://sh.5i5j.com/ershoufang/406713/p1/"},
@@ -76,6 +76,30 @@
       {"community":"梅陇七村","layout":"1室1厅","areaSqm":41.12,"priceWan":185,"unitPriceYuanSqm":44990,"listedAt":"2026-09-01","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss3328/r1r5t4/"},
       {"community":"梅陇七村","layout":"1室1厅","areaSqm":46.09,"priceWan":199,"unitPriceYuanSqm":43176,"listedAt":"2026-08-21","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss3328/r1r5t4/"},
       {"community":"华理苑","layout":"1室1厅","areaSqm":39.77,"priceWan":195,"unitPriceYuanSqm":49032,"listedAt":"2026-01-25","sourceUrl":"https://sh.5i5j.com/ershoufang/30218/p1r1r2r3/"}
+    ]},
+    {"id":"inner-ring-jingan","name":"内环 · 静安 / 西藏北路","district":"静安区","area":"西藏北路","sourceName":"我爱我家上海二手房挂牌页","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss646/o8r1/","listings":[
+      {"community":"芷江西路26弄","layout":"1室0厅","areaSqm":26.32,"priceWan":155,"unitPriceYuanSqm":58891,"listedAt":"2026-08-14","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss646/o8r1/"}
+    ]},
+    {"id":"inner-ring-putuo","name":"内环 · 普陀 / 甘泉宜川","district":"普陀区","area":"甘泉宜川 / 上海站","sourceName":"我爱我家上海二手房挂牌页","sourceUrl":"https://sh.5i5j.com/ershoufang/28704/","listings":[
+      {"community":"龚家宅","layout":"1室0厅","areaSqm":34.97,"priceWan":159,"unitPriceYuanSqm":45468,"listedAt":"2026-09-07","sourceUrl":"https://sh.5i5j.com/ershoufang/28704/"},
+      {"community":"中华新路1140弄","layout":"1室1厅","areaSqm":46.53,"priceWan":198,"unitPriceYuanSqm":42553,"listedAt":"2026-07-15","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/sl4/p1r1t4z1/"},
+      {"community":"光复西路145弄","layout":"1室1厅","areaSqm":31.37,"priceWan":189,"unitPriceYuanSqm":60249,"listedAt":"2026-06-22","sourceUrl":"https://sh.5i5j.com/ershoufang/48556/"},
+      {"community":"平江小区","layout":"2室1厅","areaSqm":70.86,"priceWan":290,"unitPriceYuanSqm":40926,"listedAt":"2026-09-17","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss801/t1/"}
+    ]},
+    {"id":"inner-ring-changning","name":"内环 · 长宁 / 新华路","district":"长宁区","area":"新华路 / 宋园路 / 延安西路","sourceName":"我爱我家上海二手房挂牌页","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss698/o8p1p2/","listings":[
+      {"community":"安顺路231弄","layout":"1室1厅","areaSqm":42.31,"priceWan":220,"unitPriceYuanSqm":51997,"listedAt":"2026-10-19","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss698/o8p1p2/"},
+      {"community":"定西路615弄","layout":"1室0厅","areaSqm":28.17,"priceWan":220,"unitPriceYuanSqm":78097,"listedAt":"2026-10-04","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss698/o8p1p2/"},
+      {"community":"法华镇路878弄","layout":"1室0厅","areaSqm":32.8,"priceWan":175,"unitPriceYuanSqm":53354,"listedAt":"2026-10-04","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss698/o8p1p2/"},
+      {"community":"中华小区","layout":"1室0厅","areaSqm":32.86,"priceWan":205,"unitPriceYuanSqm":62386,"listedAt":"2026-09-08","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss531/p2p3v1/"},
+      {"community":"中华小区","layout":"2室0厅","areaSqm":50.11,"priceWan":273,"unitPriceYuanSqm":54480,"listedAt":"2026-09-12","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/sl4/c3p3t1/"},
+      {"community":"田渡小区","layout":"2室0厅","areaSqm":49.94,"priceWan":299,"unitPriceYuanSqm":59872,"listedAt":"2026-09-23","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss531/p2p3v1/"},
+      {"community":"长宁路155弄","layout":"1室0厅","areaSqm":36.52,"priceWan":280,"unitPriceYuanSqm":76670,"listedAt":"2026-10-07","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss486/a1p3/"},
+      {"community":"三泾南宅","layout":"1室1厅","areaSqm":44.95,"priceWan":288,"unitPriceYuanSqm":64071,"listedAt":"2026-08-19","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss529/a1p3r1/"},
+      {"community":"新海小区（长宁）","layout":"1室1厅","areaSqm":40.3,"priceWan":298,"unitPriceYuanSqm":73945,"listedAt":"2026-09-15","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss620/p3t32/"}
+    ]},
+    {"id":"inner-ring-xuhui","name":"内环 · 徐汇 / 徐家汇","district":"徐汇区","area":"徐家汇 / 上海体育场","sourceName":"我爱我家上海二手房挂牌页","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss470/p3r1/","listings":[
+      {"community":"王家堂小区","layout":"1室0厅","areaSqm":36,"priceWan":290,"unitPriceYuanSqm":80556,"listedAt":"2026-09-03","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss470/p3r1/"},
+      {"community":"吴东小区","layout":"1室1厅","areaSqm":43.08,"priceWan":299,"unitPriceYuanSqm":69406,"listedAt":"2026-07-17","sourceUrl":"https://sh.5i5j.com/ershoufang/subway/ss470/p2p3/"}
     ]}
   ]
 }
